@@ -62,13 +62,13 @@ body .card{
 .card .container-content .btn-add-to-cart img{
     margin-right: 10px;
 }
-.card .container-content .precos{
+.card .container-content .prices{
     display: flex;
     justify-content: flex-start;
     margin-top: 25px;
 }
 
-.card .container-content .precos .regular-price{
+.card .container-content .prices .regular-price{
     font-family: 'Fraunces', serif;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 700;
@@ -76,7 +76,7 @@ body .card{
     color: hsl(158, 36%, 37%);
     
 }
-.card .container-content .precos .tached-price{
+.card .container-content .prices .tached-price{
     margin-left: 10px;
     align-self: center;
     text-decoration:line-through;
@@ -119,12 +119,12 @@ body .card{
         width: 100%;
         height: 45%;
     }
-    .card .container-content .precos{
+    .card .container-content .prices{
         display: flex;
         justify-content: flex-start;
         padding: 0 5px;
     }
-    .card .container-content .precos .tached-price{
+    .card .container-content .prices .tached-price{
         margin-left: 30px;
     }
     .card .container-content .btn-add-to-cart{
@@ -133,7 +133,7 @@ body .card{
     }
     .card .container-content .description-perfume{
         padding: 0 5px;
-        
+
     }
 
 }

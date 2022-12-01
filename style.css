@@ -59,6 +59,9 @@ body .card{
     font-weight: 400;
     margin-top: auto;
 }
+.card .container-content .btn-add-to-cart:hover{
+    background-color: hsl(159, 35%, 16%);
+}
 .card .container-content .btn-add-to-cart img{
     margin-right: 10px;
 }
